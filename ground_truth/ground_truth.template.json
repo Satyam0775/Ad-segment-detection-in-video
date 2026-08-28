@@ -1,0 +1,18 @@
+{
+  "_instructions": "Copy this file to ground_truth.json and replace every placeholder with your own hand labels after watching each video. Delete this _instructions key in the real file. See ground_truth/README.md for the labeling process and how to resolve the eight ambiguity cases consistently with your DESIGN.md rulings.",
+
+  "video1_longform_youtube": [
+    {
+      "id": "gt_01",
+      "start_s": 0.0,
+      "end_s": 0.0,
+      "ad_type": "midroll_sponsor_read",
+      "brand": null,
+      "description": "REPLACE: describe what you observed and why you drew the boundary here"
+    }
+  ],
+  "video2_youtube_short": [],
+  "video3_livestream_or_recording": [],
+  "video4_instagram_reel_1": [],
+  "video5_instagram_reel_2": []
+}

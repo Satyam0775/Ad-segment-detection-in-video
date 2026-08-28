@@ -1,0 +1,43 @@
+{
+  "video1_longform_youtube": [
+    {
+      "id": "gt_01",
+      "start_s": 0.0,
+      "end_s": 13.0,
+      "ad_type": "preroll",
+      "brand": "Vista Imaging",
+      "description": "Advertisement for Vista Imaging & Speciality Diagnostics is present at the beginning of the video from approximately 0:00 to 0:13. The main medical-related content starts after approximately 13 seconds."
+    }
+  ],
+  "video2_youtube_short": [
+    {
+      "id": "gt_01",
+      "start_s": 4.0,
+      "end_s": 63.88,
+      "ad_type": "preroll",
+      "brand": "Avis Vascular Centre",
+      "description": "A promotional advertisement for Avis Vascular Centre begins at approximately 0:04 and continues until the end of the 63.88-second Short."
+    }
+  ],
+  "video3_livestream_or_recording": [],
+  "video4_instagram_reel_1": [
+    {
+      "id": "gt_01",
+      "start_s": 10.0,
+      "end_s": 13.1,
+      "ad_type": "midroll_sponsor_read",
+      "brand": "Dr. Samskruti / Dentalset",
+      "description": "Advertisement/promotional content starts at approximately 10 seconds and continues until the end of the 13.10-second Instagram Reel."
+    }
+  ],
+  "video5_instagram_reel_2": [
+    {
+      "id": "gt_01",
+      "start_s": 19.0,
+      "end_s": 22.67,
+      "ad_type": "midroll_sponsor_read",
+      "brand": "Clinique K",
+      "description": "Advertisement/promotional content starts at approximately 19 seconds and continues until the end of the 22.67-second Instagram Reel."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Ad Segment Viewer</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ad Segment Viewer</h1>
+
+    <div class="controls">
+      <label for="videoUrl">Local video file URL or path (served separately):</label>
+      <input type="text" id="videoUrl" placeholder="e.g. http://localhost:8000/data/downloads/xyz.mp4" />
+
+      <label for="jsonInput">Detection JSON:</label>
+      <textarea id="jsonInput" rows="6" placeholder="Paste the /api/v1/detect response JSON here"></textarea>
+      <button id="loadBtn">Load</button>
+    </div>
+
+    <video id="player" controls></video>
+
+    <div class="seekbar-wrapper">
+      <div id="seekbar" class="seekbar"></div>
+    </div>
+
+    <div id="segmentList" class="segment-list"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

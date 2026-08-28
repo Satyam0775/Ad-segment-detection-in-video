@@ -1,0 +1,44 @@
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded / generated media and working data
+data/downloads/
+data/frames/
+data/*.mp4
+data/*.wav
+*.mp4
+*.wav
+*.webm
+*.mkv
+
+# Ground truth: keep the template and README, ignore your real labeled file
+# only if you want to keep it private from a public fork — for the actual
+# submission to Inclusive Minds you SHOULD include ground_truth.json.
+# ground_truth/ground_truth.json
+
+# Artifacts (large run outputs) — keep small JSON results, ignore anything huge
+artifacts/*.mp4
+artifacts/*.wav
+
+# Secrets, just in case
+*.pem
+*.key
+secrets.*

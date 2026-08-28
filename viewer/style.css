@@ -1,0 +1,125 @@
+body {
+  font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #12141a;
+  color: #e8e8ec;
+  margin: 0;
+  padding: 24px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.controls label {
+  font-size: 12px;
+  color: #9aa0ac;
+}
+
+.controls input, .controls textarea {
+  background: #1c1f27;
+  border: 1px solid #333844;
+  border-radius: 6px;
+  color: #e8e8ec;
+  padding: 8px;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.controls button {
+  align-self: flex-start;
+  background: #4a7dff;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.controls button:hover {
+  background: #5f8bff;
+}
+
+video {
+  width: 100%;
+  max-height: 480px;
+  background: black;
+  border-radius: 6px;
+}
+
+.seekbar-wrapper {
+  margin-top: 8px;
+  padding: 4px 0;
+}
+
+.seekbar {
+  position: relative;
+  height: 14px;
+  background: #262a34;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.seekbar .segment-marker {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: #ff6b6b;
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.seekbar .segment-marker:hover {
+  opacity: 1;
+}
+
+.segment-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.segment-card {
+  background: #1c1f27;
+  border: 1px solid #333844;
+  border-radius: 6px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.segment-card:hover {
+  border-color: #4a7dff;
+}
+
+.segment-card .meta {
+  font-size: 12px;
+  color: #9aa0ac;
+  margin-bottom: 4px;
+}
+
+.segment-card .desc {
+  font-size: 13px;
+}
+
+.badge {
+  display: inline-block;
+  background: #2a2f3a;
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 11px;
+  margin-right: 6px;
+}

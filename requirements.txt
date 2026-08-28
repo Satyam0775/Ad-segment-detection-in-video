@@ -1,0 +1,31 @@
+# Core API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+
+# Acquisition
+yt-dlp>=2024.8.6
+
+# ASR
+faster-whisper==1.0.3
+requests>=2.31.0,<3.0.0
+
+# OCR
+easyocr==1.7.2
+
+# HTTP client for hosted VLM providers (Gemini / OpenRouter)
+httpx==0.27.2
+
+# Testing
+pytest==8.3.3
+pytest-mock==3.14.0
+
+# NOTE: FFmpeg is NOT a pip package. Install it separately and ensure it is
+# on PATH (or set FFMPEG_PATH / FFPROBE_PATH in .env). See README.md.
+#
+# NOTE: easyocr pulls in torch + torchvision transitively. On a fresh
+# Windows/Python 3.12 machine this is a large (~2-3 GB) download the first
+# time. If you want a lighter footprint for a quick smoke test, set
+# OCR_PROVIDER=null in .env to skip OCR entirely while wiring up the rest.

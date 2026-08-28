@@ -1,0 +1,16 @@
+{
+  "source": {
+    "url": "https://www.instagram.com/reel/DJl6-v8oufg",
+    "platform": "instagram",
+    "kind": "short",
+    "duration_s": 13.1,
+    "processed_at": "2026-08-27T09:36:17.752496+00:00"
+  },
+  "segments": [],
+  "stats": {
+    "wall_clock_s": 0.0,
+    "estimated_cost_usd": 0.0,
+    "frames_sampled": 41,
+    "model_calls": 8
+  }
+}

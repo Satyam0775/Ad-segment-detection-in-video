@@ -1,0 +1,42 @@
+{
+  "source": {
+    "url": "https://www.youtube.com/shorts/Ve0zdhTQA4U",
+    "platform": "youtube",
+    "kind": "short",
+    "duration_s": 63.88,
+    "processed_at": "2026-08-27T19:20:14.408292+00:00"
+  },
+  "segments": [
+    {
+      "id": "seg_01",
+      "start_s": 0.0,
+      "end_s": 61.0,
+      "ad_type": "preroll",
+      "confidence": 0.821,
+      "brand": "Avis Vascular",
+      "description": "Pre-roll advertisement for Avis Vascular. Evidence text: \"iib [Dream Ihasur 6823 &8 eaeags.. 0ocss 38e @Oesna e@aob8 @exca? Avis Vascular Centre Untol Aw< Hosfitck Ind?lmilcd @23 %Ue ;0anr8 380 w8ap0 @83 3833085 45001-...\"",
+      "evidence": {
+        "frame_timestamps": [
+          0.0,
+          10.0,
+          20.0,
+          30.0,
+          40.0,
+          50.0,
+          60.0
+        ],
+        "transcript_span": null,
+        "signals_used": [
+          "vlm_frame",
+          "ocr"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "wall_clock_s": 0.01,
+    "estimated_cost_usd": 0.0,
+    "frames_sampled": 128,
+    "model_calls": 19
+  }
+}

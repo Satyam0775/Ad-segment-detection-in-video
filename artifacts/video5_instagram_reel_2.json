@@ -1,0 +1,16 @@
+{
+  "source": {
+    "url": "https://www.instagram.com/reel/Db78RoIuOyl/",
+    "platform": "instagram",
+    "kind": "short",
+    "duration_s": 22.67,
+    "processed_at": "2026-08-27T09:36:17.778746+00:00"
+  },
+  "segments": [],
+  "stats": {
+    "wall_clock_s": 0.0,
+    "estimated_cost_usd": 0.0,
+    "frames_sampled": 88,
+    "model_calls": 17
+  }
+}
